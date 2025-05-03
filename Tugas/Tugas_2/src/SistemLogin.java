@@ -4,7 +4,7 @@ public class SistemLogin {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-         System.out.println("Pilih jenis login:");
+        System.out.println("Pilih jenis login:");
         System.out.println("1. Admin");
         System.out.println("2. Mahasiswa");
         System.out.print("Masukkan pilihan: ");
@@ -18,9 +18,8 @@ public class SistemLogin {
             System.out.print("Masukkan password: ");
             String password = scanner.nextLine();
 
-            String nimAkhir = "103";
-            String usernameValid = "Admin" + nimAkhir;
-            String passwordValid = "password" + nimAkhir;
+            String usernameValid = "Taufik";
+            String passwordValid = "2024";
 
             if (username.equals(usernameValid) && password.equals(passwordValid)) {
                 System.out.println("Login Admin berhasil!");
@@ -41,12 +40,11 @@ public class SistemLogin {
                 System.out.println("Nama: " + nama);
                 System.out.println("NIM: " + nim);
             } else {
-                System.out.println("Login gagal! Nama atau NIM salah.");
+                System.out.println("Login gagal! Nama atau NIM salah");
             }
         } else {
             System.out.println("Pilihan tidak valid.");
         }
-
         scanner.close();
     }
 }
