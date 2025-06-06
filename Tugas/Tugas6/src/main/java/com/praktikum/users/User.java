@@ -1,12 +1,18 @@
-package com.praktikum.users;
+package main.java.com.praktikum.users;
 
-public abstract class User {
+public class User {
+    protected String name;
     protected String username;
     protected String password;
 
-    public User(String username, String password){
+    public User(String name, String username, String password) {
+        this.name = name;
         this.username = username;
         this.password = password;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public String getUsername() {
@@ -16,11 +22,4 @@ public abstract class User {
     public String getPassword() {
         return password;
     }
-
-    public void displayInfo(){
-    }
-
-    public abstract boolean login(String username, String password);
-    public abstract void displayAppMenu();
 }
-

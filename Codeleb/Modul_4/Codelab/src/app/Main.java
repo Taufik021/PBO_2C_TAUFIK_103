@@ -12,7 +12,7 @@ public class Main {
         buku2.displayInfo();
         System.out.println();
 
-        Anggota anggota1 = new Anggota("Taufikurahman", "2C103");
+        Anggota anggota1 = new Anggota("Taufik", "2C103");
         Anggota anggota2 = new Anggota("Rezha Rivai", "2C222");
 
         anggota1.tampilkanInfo();
@@ -22,7 +22,6 @@ public class Main {
         anggota1.pinjamBuku("Berpikir yang bagus");
         anggota2.pinjamBuku("Hutan Seram", 7);
         System.out.println();
-
         anggota1.kembalikanBuku("Berpikir Yang Bagus");
         anggota2.kembalikanBuku("Hutan Seram");
     }

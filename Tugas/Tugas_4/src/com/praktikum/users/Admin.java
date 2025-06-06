@@ -18,6 +18,7 @@ public class Admin extends User implements AdminActions {
         System.out.println("Login Admin Berhasil");
         System.out.println("Username: " + getUsername());
         System.out.println("Password: " + getPassword());
+
     }
 
     @Override
@@ -50,5 +51,6 @@ public class Admin extends User implements AdminActions {
                 default -> System.out.println("Pilih Tidak Valid");
             }
         } while (choice != 0);
+
     }
 }

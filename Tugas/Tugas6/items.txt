@@ -1,0 +1,2 @@
+Leptop,SegiEmpat,Di Ruangan,Claimed,Taufik
+Hp,SegiEmpat,Di Kos,Claimed,Taufik
